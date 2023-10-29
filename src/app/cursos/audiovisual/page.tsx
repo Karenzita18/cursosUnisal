@@ -4,7 +4,7 @@ import FeedPerfil from "@/components/common/AudioVisual/FeedPerfil";
 import FeedValores from "@/components/common/AudioVisual/FeedValores";
 import FeedVideo from "@/components/common/AudioVisual/FeedVideo";
 import HeroCommon from "@/components/common/AudioVisual/HeroCommon";
-import FeedGrade from "@/components/common/Feed/FeedGrade";
+import FeedGrade from "@/components/common/AudioVisual/FeedGrade";
 
 
 export default function Page() {

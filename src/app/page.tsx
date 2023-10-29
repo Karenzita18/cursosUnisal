@@ -11,11 +11,11 @@ export default function Home() {
     <main>
       <HeroHome />
       <FeedCurso />
-      <FeedPerfil />
+      {/*<FeedPerfil />*/}
       <FeedGrade />
-      <FeedValores />
+      {/*<FeedValores />*/}
       <FeedFaq />
-      <FeedVideo />
+      {/*<FeedVideo />*/}
     </main>
   );
 }

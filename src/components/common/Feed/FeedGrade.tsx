@@ -51,10 +51,10 @@ const FeedServices = () => {
                 inView && "animate-fade-down "
               }`}
             >
-              Conheça a Grade Curricular
+              Conheça nossos curso
             </h1>
           </div>
-          <div className="grid max-w-xs mx-auto sm:max-w-full sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-5">
+          <div className="grid max-w-xs mx-auto sm:max-w-full sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-5">
             {services.map((item) => (
               <div
                 onClick={() =>
@@ -67,11 +67,6 @@ const FeedServices = () => {
                 }`}
               >
                 <div className="">
-                  {/*<div
-                    className={`${item.size} text-brand-150 group-hover:text-white`}
-                  >
-                    {item.icon}
-                </div>*/}
                   <h2
                     dangerouslySetInnerHTML={{ __html: item.title }}
                     className={`font-bold text-xl text-brand-150 group-hover:text-white mt-2`}
@@ -165,31 +160,24 @@ const FeedServices = () => {
 export default FeedServices;
 const services = [
   {
-    title: "Módulo 01",
-    slug: "carga-fracionada",
-    desc: "Teória e Estética a comunicação, Discurso Verbal e Não Verdal, Redação Publicitária e em Design Gráfico, Relações entre Arte e comunicação e Formação Geral",
-    excerpt: "Fundamentos teóricos e práticos (Módulo comum a Publicidade e Propaganda e Produção Audiovisual e Multimídia).",
+    title: "AudioVisual",
+    slug: "audiovisual",
+    desc:  "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
+    excerpt:  "Lorem ispium lore mauris con con la port ",
     size: "h-14 w-14",
   },
   {
-    title: "Módulo 02",
+    title: "Publicidade e Propagana",
     slug: "carga-lotacao",
     desc: "Liguagem de Rádio, TV, Internet e Cinema. Leitura e Produção de texto e Matemática, Inteligência Artificial e Machine Learning e Conforme trilhas institucionais - Eletiva",
-    excerpt: "Linguagens e Técnicas Audiovisuais",
+    excerpt: "Lorem ispium lore mauris con con la port",
     size: "h-14 w-14",
   },
   {
-    title: "Módulo 03",
+    title: "Lorem",
     slug: "crossdocking",
-    desc: "Marketing, Empreendedorismo e Gestão, Estratégiais de Gestçao e Inteligência de Mercado, Logística Reversa e Sustentabilidade. Empreendedorismo. Psicologia Organizacional, Responsabilidade Social e Corporativa, Direito Ambiental, Conforme Regulamento Institucional e Específico do Curso.",
-    excerpt: "Marketing, Gestão e Análises Mercadológicas (Módulo Comum e Publicidade e Propaganda)",
+    desc: "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
+    excerpt:  "Lorem ispium lore mauris con con la port ",
     size: "h-14 w-14",
-  },
-  {
-    title: "Módulo 04",
-    slug: "carga-produtos-quimicos",
-    desc: "WebDesign, Experiência do Usuário, Produção Audiovisual para internet e Mobile, Realidade Virtual e Aumentada, Logística Reversa e Sustentabilidade, Empreendedorismo, Psicologia Organizacional, Responsabilidade Social e Corporativa, Direito Ambiental, Coforme trilhas institucionais - Eletiva, Conforme Regulamento Institucional e Específico do Curso.",
-    excerpt: "Linguagens Multimídia e Inovação Tecnológica",
-    size: "h-[3.6rem] w-[4.9rem] ",
   },
 ];

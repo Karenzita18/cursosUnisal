@@ -51,7 +51,7 @@ const FeedServices = () => {
                 inView && "animate-fade-down "
               }`}
             >
-              Conheça a Grade Curricular
+              Conheça nossos curso
             </h1>
           </div>
           <div className="grid max-w-xs mx-auto sm:max-w-full sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-5">
@@ -67,11 +67,6 @@ const FeedServices = () => {
                 }`}
               >
                 <div className="">
-                  {/*<div
-                    className={`${item.size} text-brand-150 group-hover:text-white`}
-                  >
-                    {item.icon}
-                </div>*/}
                   <h2
                     dangerouslySetInnerHTML={{ __html: item.title }}
                     className={`font-bold text-xl text-brand-150 group-hover:text-white mt-2`}
