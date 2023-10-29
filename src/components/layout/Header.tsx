@@ -17,8 +17,15 @@ import Image from "next/image";
 import Logo from "../../../public/img/logo-header.png";
 import { usePathname } from "next/navigation";
 import { Link as Scroll } from "react-scroll";
+import navigation from "./navigation";
 
 declare const window: any;
+
+const cursos = [
+  { name: "AudioVisual", href: "/audiovisual" },
+  { name: "Publicidade Propaganda", href: "/publidade-e-propaganda" },
+  { name: "Lorem", href: "/lorem" },
+];
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -121,31 +128,50 @@ export default function Header() {
                   </Link>
                 </div>
                 <div className="hidden lg:block">
-                  <div className=" mr-5 sm:flex flex-nowrap items-center">
-                    <Scroll
-                      to="curso"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Curso
-                    </Scroll>
-                    <Scroll
-                      to="portifolio"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Portifólio
-                    </Scroll>
-                    <Scroll
-                      to="faq"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Dúvidas Frequentes
-                    </Scroll>
+                <div className=" flex items-center space-x-4 font-medium">
+                    {navigation.map((item) =>
+                      item.name == "Cursos" ? (
+                        <>
+                          <div key={item.href} className="relative text-right">
+                            <div className="group relative">
+                              <Link
+                                key={item.name}
+                                href={`${item.href}`}
+                                className="cursor-pointer tracking-wider px-3 py-7 font-medium group-hover:text-brand-200 text-brand-100 transition duration-500 relative"
+                              >
+                                {item.name}
+                                <span className="inline-block -mb-1">
+                                  <FaAngleDown
+                                    className="ml-2 -mr-1 h-5 w-5 text-sm opacity-75 text-brand-100 group-hover:text-brand-200 transition duration-500"
+                                    aria-hidden="true"
+                                  />
+                                </span>
+                              </Link>
+                              <div className="group-hover:absolute hidden group-hover:block bg-white shadow-md p-[2px] w-48 top-12">
+                                {cursos.map((item, i) => (
+                                  <div key={i}>
+                                    <Link
+                                      href={`/cursos/${item.href}`}
+                                      className="hover:bg-brand-100 hover:text-white text-brand-100 group text-start flex w-full items-center rounded-md px-2 py-2 text-sm"
+                                    >
+                                      {item.name}
+                                    </Link>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        </>
+                      ) : (
+                        <Link
+                          key={item.name}
+                          href={`${item.href}`}
+                          className="cursor-pointer tracking-wider px-3 py-7 font-medium hover:text-brand-200 text-brand-100"
+                        >
+                          {item.name}
+                        </Link>
+                      )
+                    )}
                   </div>
                 </div>
               </div>
@@ -211,31 +237,61 @@ export default function Header() {
                   ref={ref}
                   className="bg-zinc-100 -mx-5 px-2 space-y-1 sm:px-3 py-10"
                 >
-                  <div className="col-span-2 flex flex-col px-5 md:grid md:grid-cols-2 gap-x-20 gap-y-4 md:gap-y-10">
-                    <Scroll
-                      to="curso"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Curso
-                    </Scroll>
-                    <Scroll
-                      to="portifolio"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Portifólio
-                    </Scroll>
-                    <Scroll
-                      to="faq"
-                      smooth
-                      offset={-100}
-                      className="text-black text-lg px-5 py-5 cursor-pointer"
-                    >
-                      Dúvidas Frequentes
-                    </Scroll>
+                  <div>
+                    {navigation.map((item) =>
+                      item.name == "Cursos" ? (
+                        <div key={item.href} className="relative text-right">
+                          <Menu as="div" className="">
+                            <Menu.Button className="cursor-pointer text-brand-100 block px-3 py-2 rounded-md text-base font-medium tracking-wider">
+                              Cursos
+                              <span className="inline-block -mb-1 text-brand-100/70">
+                                <FaAngleDown />
+                              </span>
+                            </Menu.Button>
+                            <Transition
+                              as={Fragment}
+                              enter="transition ease-out duration-100"
+                              enterFrom="transform opacity-0 scale-95"
+                              enterTo="transform opacity-100 scale-100"
+                              leave="transition ease-in duration-75"
+                              leaveFrom="transform opacity-100 scale-100"
+                              leaveTo="transform opacity-0 scale-95"
+                            >
+                              <Menu.Items className="ml-5 mb-2 origin-top-right divide-y ">
+                                <div className="px-1 pb-1 ">
+                                  {cursos.map((item, i) => (
+                                    <Menu.Item key={i}>
+                                      {({ active }) => (
+                                        <Link
+                                          href={`/cursos/${item.href}`}
+                                          onClick={() => setIsOpen(false)}
+                                          className={`${
+                                            active
+                                              ? "bg-brand-100 text-white"
+                                              : "text-brand-100"
+                                          } group text-start flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                        >
+                                          {item.name}
+                                        </Link>
+                                      )}
+                                    </Menu.Item>
+                                  ))}
+                                </div>
+                              </Menu.Items>
+                            </Transition>
+                          </Menu>
+                        </div>
+                      ) : (
+                        <Link
+                          key={item.name}
+                          href={item.href}
+                          onClick={() => setIsOpen(false)}
+                          className="cursor-pointer text-brand-100 block px-3 py-2 rounded-md text-base font-medium tracking-wider"
+                        >
+                          {item.name}
+                        </Link>
+                      )
+                    )}
                   </div>
                 </div>
               </div>
