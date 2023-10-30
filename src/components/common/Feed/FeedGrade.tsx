@@ -167,7 +167,7 @@ const services = [
     size: "h-14 w-14",
   },
   {
-    title: "Publicidade e Propagana",
+    title: "Publicidade e Propaganda",
     slug: "carga-lotacao",
     desc: "Liguagem de Rádio, TV, Internet e Cinema. Leitura e Produção de texto e Matemática, Inteligência Artificial e Machine Learning e Conforme trilhas institucionais - Eletiva",
     excerpt: "Lorem ispium lore mauris con con la port",
