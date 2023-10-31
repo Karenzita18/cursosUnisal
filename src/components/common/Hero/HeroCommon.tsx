@@ -1,6 +1,6 @@
 const FeedHospitalarPage = ({
-  title = "Hospitalar",
-  desc = "Permite a integração com ERP´s para agilizar todos os processos e disponibilidade de dados.",
+  title = "Cursos",
+  desc = "Unisal | 2023",
 }) => {
   return (
     <section className="bg-gradient-to-r from-brand-100 to-brand-150 relative">

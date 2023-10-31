@@ -1,30 +1,23 @@
-import FeedCurso from "@/components/common/AudioVisual/FeedCurso";
-import FeedFaq from "@/components/common/AudioVisual/FeedFaq";
-import FeedPerfil from "@/components/common/AudioVisual/FeedPerfil";
-import FeedValores from "@/components/common/AudioVisual/FeedValores";
-import FeedVideo from "@/components/common/AudioVisual/FeedVideo";
-import HeroCommon from "@/components/common/AudioVisual/HeroCommon";
-import FeedGrade from "@/components/common/AudioVisual/FeedGrade";
+import FeedGrade from "@/components/common/Feed/FeedGrade";
+import HeroCommon from "@/components/common/Hero/HeroCommon";
+
 
 
 export default function Page() {
   return (
     <main className="mt-20">
       <HeroCommon
-        title="Audiovisual"
+        title="Cursos"
         desc="Unisal 2023"
       />
-      <FeedCurso/>
-      <FeedPerfil/>
-      <FeedGrade/>
-      <FeedVideo/>
+        <FeedGrade/>
     </main>
   );
 }
 
 export const metadata = {
   title:
-    "AudioVisual | Unisal",
+    "Cursos",
   description: "",
   keywords: [
     "Transportadora Sanjefer",

@@ -11,11 +11,7 @@ export default function Home() {
     <main>
       <HeroHome />
       <FeedCurso />
-      {/*<FeedPerfil />*/}
       <FeedGrade />
-      {/*<FeedValores />*/}
-      <FeedFaq />
-      {/*<FeedVideo />*/}
     </main>
   );
 }

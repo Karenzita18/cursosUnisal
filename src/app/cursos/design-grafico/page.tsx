@@ -1,20 +1,28 @@
-import HeroCommon from "@/components/common/lorem/HeroCommon";
+import FeedCurso from "@/components/common/design-grafico/FeedCurso";
+import FeedGrade from "@/components/common/design-grafico/FeedGrade";
+import FeedPerfil from "@/components/common/design-grafico/FeedPerfil";
+import FeedVideo from "@/components/common/design-grafico/FeedVideo";
+import HeroCommon from "@/components/common/design-grafico/HeroCommon";
 
 
 export default function Page() {
   return (
     <main className="mt-20">
       <HeroCommon
-        title="Lorem"
+        title="Design gráfico"
         desc="Unisal 2023"
       />
+      <FeedCurso/>
+      <FeedPerfil/>
+      <FeedGrade/>
+      <FeedVideo/>
     </main>
   );
 }
 
 export const metadata = {
   title:
-    "Lorem | Unisal",
+    "Design gráfico | Unisal",
   description: "",
   keywords: [
     "Transportadora Sanjefer",

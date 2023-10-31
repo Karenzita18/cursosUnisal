@@ -54,7 +54,7 @@ const FeedServices = () => {
               Conheça nossos curso
             </h1>
           </div>
-          <div className="grid max-w-xs mx-auto sm:max-w-full sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-5">
+          <div className="grid max-w-xs mx-auto sm:max-w-full sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-5">
             {services.map((item) => (
               <div
                 onClick={() =>
@@ -160,24 +160,31 @@ const FeedServices = () => {
 export default FeedServices;
 const services = [
   {
-    title: "Publicidade e Propaganda",
+    title: "Módulo 01",
+    slug: "carga-fracionada",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    size: "h-14 w-14",
+  },
+  {
+    title: "Módulo 02",
     slug: "carga-lotacao",
-    desc: "Liguagem de Rádio, TV, Internet e Cinema. Leitura e Produção de texto e Matemática, Inteligência Artificial e Machine Learning e Conforme trilhas institucionais - Eletiva",
-    excerpt: "Lorem ispium lore mauris con con la port",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
     size: "h-14 w-14",
   },
   {
-    title: "AudioVisual",
-    slug: "audiovisual",
-    desc:  "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
-    excerpt:  "Lorem ispium lore mauris con con la port ",
-    size: "h-14 w-14",
-  },
-  {
-    title: "Design gráfico",
+    title: "Módulo 03",
     slug: "crossdocking",
-    desc: "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
-    excerpt:  "Lorem ispium lore mauris con con la port ",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
     size: "h-14 w-14",
+  },
+  {
+    title: "Módulo 04",
+    slug: "carga-produtos-quimicos",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using a",
+    size: "h-[3.6rem] w-[4.9rem] ",
   },
 ];

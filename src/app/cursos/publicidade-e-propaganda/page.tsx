@@ -1,3 +1,7 @@
+import FeedPerfil from "@/components/common/AudioVisual/FeedPerfil";
+import FeedCurso from "@/components/common/publicidade-e-propaganda/FeedCurso";
+import FeedGrade from "@/components/common/publicidade-e-propaganda/FeedGrade";
+import FeedVideo from "@/components/common/publicidade-e-propaganda/FeedVideo";
 import HeroCommon from "@/components/common/publicidade-e-propaganda/HeroCommon";
 
 
@@ -8,6 +12,10 @@ export default function Page() {
         title="Publicidade e Propaganda"
         desc="Unisal 2023"
       />
+      <FeedCurso/>
+      <FeedPerfil/>
+      <FeedGrade/>
+      <FeedVideo/>
     </main>
   );
 }

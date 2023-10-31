@@ -22,9 +22,9 @@ import navigation from "./navigation";
 declare const window: any;
 
 const cursos = [
-  { name: "AudioVisual", href: "/audiovisual" },
   { name: "Publicidade e Propaganda", href: "/publicidade-e-propaganda" },
-  { name: "Lorem", href: "/lorem" },
+  { name: "AudioVisual", href: "/audiovisual" },
+  { name: "Design gráfico", href: "/design-grafico" },
 ];
 
 export default function Header() {

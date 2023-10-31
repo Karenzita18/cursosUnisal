@@ -12,7 +12,7 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: " AudioVisual | Publicidade & Propaganda",
+  title: "Cursos",
   description: "",
   keywords: [
     "Tecnologia",
