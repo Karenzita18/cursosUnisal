@@ -15,7 +15,7 @@ const FeedDiferenciais = () => {
             inView && "animate-fade-down "
           }`}
         >
-          Perfil Engresso
+          Perfil Egresso
         </h1>
       </div>
       <div className="row">
