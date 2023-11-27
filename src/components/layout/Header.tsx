@@ -34,9 +34,9 @@ export default function Header() {
   const data = {
     logoAlt: "Maximus",
     redeSocial: {
-      facebook: "/",
-      linkedIn: "/",
-      instagram: "/",
+      facebook: "https://www.facebook.com/unisalamericana",
+      linkedIn: "https://www.linkedin.com/school/unisal/",
+      instagram: "https://www.instagram.com/unisalamericana/",
       whatsapp:
         "/",
     },
@@ -64,13 +64,13 @@ export default function Header() {
           <div className="max-w-7xl mx-auto flex place-content-between">
             <div className="flex place-items-center gap-x-5">
               <a
-                href="mailto:contato@audiovisual.com.br"
+                href="mailto:atendimento.americana@unisal.br"
                 className="text-sm hidden sm:block"
               >
                 <span className="inline-block text-lg -mb-1 mx-2">
                   <FaRegEnvelope></FaRegEnvelope>
                 </span>
-                contato@audiovisual.com.br
+                atendimento.americana@unisal.br
               </a>
             </div>
 

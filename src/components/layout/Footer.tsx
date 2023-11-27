@@ -17,9 +17,6 @@ const Footer = () => {
   const data = new Date(Date.now());
   return (
     <footer className={`bg-gradient-to-b from-brand-100 to-brand-150`}>
-      <div className="-translate-y-1/2 flex place-content-end overflow-x-hidden relative z-10">
-        <div className=""></div>
-      </div>
       <div className="row py-20 px-5">
         <div className="container">
           <div className="grid grid-cols-4 gap-3">
@@ -32,11 +29,11 @@ const Footer = () => {
                   alt="Logo Footer"
                 />
                 <p className="text-white leading-5 mt-3 text-justify">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Conheça o curso de graduação de comunição social e novos tecnólogos
                 </p>
                 <div className="flex gap-x-3 mt-5 md:place-content-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/unisalamericana"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
@@ -44,7 +41,7 @@ const Footer = () => {
                     <FaFacebookF />
                   </a>
                   <a
-                    href="/"
+                    href="https://www.linkedin.com/school/unisal/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
@@ -52,20 +49,12 @@ const Footer = () => {
                     <FaLinkedinIn />
                   </a>
                   <a
-                    href="/"
+                    href="https://www.instagram.com/unisalamericana/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
                   >
                     <FaInstagram />
-                  </a>
-                  <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 bg-brand-200 rounded-full text-white hover:-translate-y-1 transition duration-500"
-                  >
-                    <FaWhatsapp />
                   </a>
                 </div>
               </div>
@@ -83,19 +72,27 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/sobre-curso">
+                    <Link href="/cursos/publicidade-e-propaganda">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Sobre o curso
+                      Publicidade e Propaganda
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/grade-curricular">
+                    <Link href="/cursos/audiovisual">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
-                      Grade curricular
+                      AudioVisual e MultiMídia
+                    </Link>
+                  </li>
+                  <li className="hover:text-brand-50 transition duration-500">
+                    <Link href="/cursos/design-grafico">
+                      <span className="inline-block -mb-[2px] mr-1">
+                        <FaAngleDoubleRight />
+                      </span>
+                      Design Gráfico
                     </Link>
                   </li>
                   {/* <li className="hover:text-brand-50 transition duration-500">
@@ -106,35 +103,6 @@ const Footer = () => {
                       Blog
                     </Link>
                   </li> */}
-                </ul>
-              </div>
-              <div className="text-white">
-                <h2 className="font-bold mb-3 text-xl">Contato</h2>
-                <ul className="flex gap-y-2 flex-col">
-                  <li className="hover:text-brand-50 transition duration-500">
-                    <a
-                      href="mailto:contato@audiovisual.com.br"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="inline-block -mb-[2px] mr-1">
-                        <FaAngleDoubleRight />
-                      </span>
-                      Atendimento via email
-                    </a>
-                  </li>
-                  <li className="hover:text-brand-50 transition duration-500">
-                    <a
-                      href="tel:19xxxxxxxxx"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="inline-block -mb-[2px] mr-1">
-                        <FaAngleDoubleRight />
-                      </span>
-                      Atendimento via telefone
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div className="text-white">
@@ -149,7 +117,9 @@ const Footer = () => {
                     </p>
                   </li>
                 </ul>
-                <h2 className="font-bold mb-3 mt-4 text-xl">
+              </div>
+              <div className="text-white">
+                <h2 className="font-bold mb-3 text-xl">
                   Horário de Funcionamento
                 </h2>
                 <ul className="flex gap-y-2 flex-col">
@@ -158,10 +128,18 @@ const Footer = () => {
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaClock />
                       </span>
-                      Segunda à Sexta das 8h às 16h
+                      Segunda à Sexta das 8h às 22h
                     </p>
                   </li>
-                </ul>
+                  <li className="hover:text-brand-50 transition duration-500">
+                    <p className="text-white">
+                      <span className="inline-block -mb-[2px] mr-1">
+                        <FaClock />
+                      </span>
+                      Sábado das 8h às 12h
+                    </p>
+                  </li>
+                </ul>  
               </div>
             </div>
           </div>
