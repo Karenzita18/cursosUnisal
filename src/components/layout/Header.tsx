@@ -14,7 +14,7 @@ import {
 import { Menu, Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../../public/img/logo-header.png";
+import Logo from "../../../public/img/logo-unisal.webp";
 import { usePathname } from "next/navigation";
 import { Link as Scroll } from "react-scroll";
 import navigation from "./navigation";

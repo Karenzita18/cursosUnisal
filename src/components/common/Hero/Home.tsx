@@ -31,63 +31,6 @@ const HeroHome = () => {
         <SwiperSlide>
           {({ isActive }) => (
             <div className="relative">
-              <div className="hidden md:block">
-                <Image
-                  src="/img/banners/banners.png"
-                  width={1920}
-                  height={700}
-                  alt="Faça sua cotação!"
-                  className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
-                />
-              </div>
-              <div className="md:hidden h-96">
-                <Image
-                  src="/img/banners/banners.png"
-                  width={1920}
-                  height={700}
-                  alt="Faça sua cotação!"
-                  className="relative object-cover h-full w-full"
-                />
-              </div>
-              <section className="absolute w-full h-full flex flex-col justify-center place-content-center inset-0 bg-black/40">
-                <div className="row">
-                  <div className="container">
-                    <h1
-                      className={`font-black text-2xl sm:text-2xl lg:text-4xl xl:text-5xl text-white text-center ${
-                        isActive && "animate-fade-down"
-                      }`}
-                    >
-                      What is Lorem Ipsum?
-                    </h1>
-                    <p
-                      className={`text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl text-white font-medium ${
-                        isActive && "animate-fade-down"
-                      }`}
-                    >
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <div className="flex place-content-center mt-5 ">
-                      <LinkScroll
-                        smooth
-                        to="servicos"
-                        href="/"
-                        offset={-180}
-                        className={`text-white text-lg font-bold rounded-full px-5 py-2 border border-white ${
-                          isActive && "animate-fade-up"
-                        } `}
-                      >
-                        Saiba Mais
-                      </LinkScroll>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          )}
-        </SwiperSlide>
-        <SwiperSlide>
-          {({ isActive }) => (
-            <div className="relative">
               <div className="relative hidden md:block">
                 <div className="absolute z-30 bg-black/50 w-full h-full inset-0"></div>
                 <div className="absolute w-full h-full z-10 flex items-center place-content-end">
@@ -175,6 +118,28 @@ const HeroHome = () => {
                   </div>
                 </div>
               </section>
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className="relative">
+              <div className="hidden md:block">
+                <Image
+                  src="/img/audiovisual/banner-audiovisual-desktop.png"
+                  width={1920}
+                  height={700}
+                  alt="Banner audiovisual desktop"
+                  className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
+                />
+              </div>
+              <div className="md:hidden h-96">
+                <img
+                  src="/img/audiovisual/banner-mobile-oficial.png"
+                  alt="Faça sua cotação!"
+                  className="relative object-cover h-full w-full"
+                />
+              </div>
             </div>
           )}
         </SwiperSlide>

@@ -40,14 +40,14 @@ const FeedServices = () => {
         <div className="container">
           <div className="mb-5">
             <p
-              className={`sectionSubTitle text-center ${
+              className={`font-bold text-audiovisual-300 text-center ${
                 inView && "animate-fade-down animate-delay-300"
               }`}
             >
               Curso
             </p>
             <h1
-              className={`text-3xl sm:text-4xl font-bold text-brand-100 !leading-9 text-center  ${
+              className={`text-3xl sm:text-4xl font-bold text-audiovisual-100 !leading-9 text-center  ${
                 inView && "animate-fade-down "
               }`}
             >
@@ -61,7 +61,7 @@ const FeedServices = () => {
                   handleModal(item.title, item.desc, item.slug)
                 }
                 key={item.title}
-                className={`max-w-xs bg-brand-150/5 backdrop-blur-sm py-5 px-5 flex flex-col justify-between shadow-md group hover:scale-[101%] transition duration-300 hover:-translate-y-1 border-b-4 border-brand-150 gap-y-3 hover:bg-brand-150 hover:border-white rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm cursor-pointer ${
+                className={`max-w-xs bg-brand-150/5 backdrop-blur-sm py-5 px-5 flex flex-col justify-between shadow-md group hover:scale-[101%] transition duration-300 hover:-translate-y-1 border-b-4 border-audiovisual-400 gap-y-3 hover:bg-audiovisual-400/90 hover:border-white rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm cursor-pointer ${
                   inView &&
                   "animate-fade animate-duration-500 animate-delay-100"
                 }`}
@@ -69,7 +69,7 @@ const FeedServices = () => {
                 <div className="">
                   <h2
                     dangerouslySetInnerHTML={{ __html: item.title }}
-                    className={`font-bold text-xl text-brand-150 group-hover:text-white mt-2`}
+                    className={`font-bold text-xl text-audiovisual-100 group-hover:text-white mt-2`}
                   ></h2>
                   <p className="text-justify group-hover:text-white  ">
                     {item.excerpt}{" "}
@@ -79,12 +79,8 @@ const FeedServices = () => {
                   onClick={() =>
                     handleModal(item.title, item.desc, item.slug)
                   }
-                  className="text-brand-150 font-bold group-hover:text-white group text-start tracking-wider text-sm"
+                  className="text-audiovisual-100 font-bold group-hover:text-white group text-start tracking-wider text-sm"
                 >
-                  Ler Mais{" "}
-                  <span className="inline-block -mb-[2px] group-hover:translate-x-2 transition duration-700">
-                    <FaAngleRight />
-                  </span>
                 </button>
               </div>
             ))}
@@ -128,21 +124,21 @@ const FeedServices = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden bg-white/90 backdrop-blur-sm py-5 sm:py-8 px-5 flex flex-col justify-between shadow-md duration-300 border-b-4 border-brand-150 gap-y-2 rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm transition-all">
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden bg-white/90 backdrop-blur-sm py-5 sm:py-8 px-5 flex flex-col justify-between shadow-md duration-300 border-b-4 border-audiovisual-300 gap-y-2 rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="font-bold text-2xl text-center text-brand-150 group-hover:text-white"
+                    className="font-bold text-2xl text-center text-audiovisual-100 group-hover:text-audiovisual-100"
                     dangerouslySetInnerHTML={{ __html: modalTitle }}
                   />
                   <div className="">
-                    <p className="text-justify mt-3 group-hover:text-white">
+                    <p className="text-justify mt-3 group-hover:text-audiovisual-100">
                       {modalContet}
                     </p>
                   </div>
 
                   <div className="relative">
                     <div
-                      className={`absolute right-0 w-24 opacity-10 ml-auto text-brand-150 group-hover:text-white z-0 -bottom-5 sm:-bottom-8`}
+                      className={`absolute right-0 w-24 opacity-10 ml-auto text-audiovisual-100 -hover:text-white z-0 -bottom-5 sm:-bottom-8`}
                     >
                       {modalIcon}
                     </div>
@@ -176,7 +172,7 @@ const services = [
   {
     title: "Módulo 03",
     slug: "crossdocking",
-    desc: "Marketing, Empreendedorismo e Gestão, Estratégiais de Gestçao e Inteligência de Mercado, Logística Reversa e Sustentabilidade. Empreendedorismo. Psicologia Organizacional, Responsabilidade Social e Corporativa, Direito Ambiental, Conforme Regulamento Institucional e Específico do Curso.",
+    desc: "Marketing, Empreendedorismo e Gestão, Estratégiais de Gestão e Inteligência de Mercado, Logística Reversa e Sustentabilidade. Empreendedorismo. Psicologia Organizacional, Responsabilidade Social e Corporativa, Direito Ambiental, Conforme Regulamento Institucional e Específico do Curso.",
     excerpt: "Marketing, Gestão e Análises Mercadológicas (Módulo Comum e Publicidade e Propaganda)",
     size: "h-14 w-14",
   },

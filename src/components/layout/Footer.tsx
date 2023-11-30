@@ -16,22 +16,19 @@ import { Link as Scroll } from "react-scroll";
 const Footer = () => {
   const data = new Date(Date.now());
   return (
-    <footer className={`bg-gradient-to-b from-brand-100 to-brand-150`}>
-      <div className="row py-20 px-5">
+    <footer className={`bg-gradient-to-b from-brand-100/80 to-brand-150/80`}>
+      <div className="row py-16 px-5">
         <div className="container">
           <div className="grid grid-cols-4 gap-3">
             <div className="col-span-4 md:col-span-1">
               <div className="max-w-[15rem] ">
                 <Image
-                  src="/img/logo-header.png"
-                  width={600}
+                  src="/img/logo-unisal-footer.png"
+                  width={700}
                   height={204}
                   alt="Logo Footer"
                 />
-                <p className="text-white leading-5 mt-3 text-justify">
-                  Conheça o curso de graduação de comunição social e novos tecnólogos
-                </p>
-                <div className="flex gap-x-3 mt-5 md:place-content-center">
+                <div className="flex gap-x-3 -mt-1 md:place-content-center">
                   <a
                     href="https://www.facebook.com/unisalamericana"
                     target="_blank"
