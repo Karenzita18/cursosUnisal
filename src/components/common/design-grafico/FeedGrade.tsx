@@ -6,6 +6,7 @@ import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
+import DownloadButton from "./DownloadButton";
 
 const FeedServices = () => {
   const { ref, inView, entry } = useInView();
@@ -40,14 +41,14 @@ const FeedServices = () => {
         <div className="container">
           <div className="mb-5">
             <p
-              className={`sectionSubTitle text-center ${
+              className={`font-bold text-designgrafico-200 text-center ${
                 inView && "animate-fade-down animate-delay-300"
               }`}
             >
               Curso
             </p>
             <h1
-              className={`text-3xl sm:text-4xl font-bold text-brand-100 !leading-9 text-center  ${
+              className={`text-3xl sm:text-4xl font-bold text-designgrafico-300 !leading-9 text-center  ${
                 inView && "animate-fade-down "
               }`}
             >
@@ -61,7 +62,7 @@ const FeedServices = () => {
                   handleModal(item.title, item.desc, item.slug)
                 }
                 key={item.title}
-                className={`max-w-xs bg-brand-150/5 backdrop-blur-sm py-5 px-5 flex flex-col justify-between shadow-md group hover:scale-[101%] transition duration-300 hover:-translate-y-1 border-b-4 border-brand-150 gap-y-3 hover:bg-brand-150 hover:border-white rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm cursor-pointer ${
+                className={`max-w-xs bg-brand-150/5 backdrop-blur-sm py-5 px-5 flex flex-col justify-between shadow-md group hover:scale-[101%] transition duration-300 hover:-translate-y-1 border-b-4 border-designgrafico-300 gap-y-3 hover:bg-designgrafico-300/50 hover:border-white rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm cursor-pointer ${
                   inView &&
                   "animate-fade animate-duration-500 animate-delay-100"
                 }`}
@@ -69,7 +70,7 @@ const FeedServices = () => {
                 <div className="">
                   <h2
                     dangerouslySetInnerHTML={{ __html: item.title }}
-                    className={`font-bold text-xl text-brand-150 group-hover:text-white mt-2`}
+                    className={`font-bold text-xl text-designgrafico-300 group-hover:text-white mt-2`}
                   ></h2>
                   <p className="text-justify group-hover:text-white  ">
                     {item.excerpt}{" "}
@@ -79,24 +80,13 @@ const FeedServices = () => {
                   onClick={() =>
                     handleModal(item.title, item.desc, item.slug)
                   }
-                  className="text-brand-150 font-bold group-hover:text-white group text-start tracking-wider text-sm"
+                  className="text-designgrafico-300 font-bold group-hover:text-white group text-start tracking-wider text-sm"
                 >
                 </button>
               </div>
             ))}
           </div>
-          <div
-            className={`hover:-translate-y-2 transition duration-500 mt-5 ${
-              inView && "animate-fade-up animate-delay-200 animate-duration-500"
-            } flex items-center justify-center`}
-          >
-            <Link
-              href="/"
-              className="border border-brand-100 text-brand-100 px-5 py-2 font-semibold hover:bg-brand-100 rounded-full hover:text-white transition duration-500 mx-auto text-center"
-            >
-              Saiba Mais
-            </Link>
-          </div>
+          <DownloadButton/>
         </div>
       </div>
       <Transition appear show={isOpen} as={Fragment}>
@@ -124,10 +114,10 @@ const FeedServices = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden bg-white/90 backdrop-blur-sm py-5 sm:py-8 px-5 flex flex-col justify-between shadow-md duration-300 border-b-4 border-brand-150 gap-y-2 rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm transition-all">
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden bg-white/90 backdrop-blur-sm py-5 sm:py-8 px-5 flex flex-col justify-between shadow-md duration-300 border-b-4 border-designgrafico-300 gap-y-2 rounded-tl-[1.8rem] rounded-tr-sm rounded-br-[1.8rem] rounded-bl-sm transition-all">
                   <Dialog.Title
                     as="h3"
-                    className="font-bold text-2xl text-center text-brand-150 group-hover:text-white"
+                    className="font-bold text-2xl text-center text-designgrafico-300 group-hover:text-white"
                     dangerouslySetInnerHTML={{ __html: modalTitle }}
                   />
                   <div className="">
@@ -138,7 +128,7 @@ const FeedServices = () => {
 
                   <div className="relative">
                     <div
-                      className={`absolute right-0 w-24 opacity-10 ml-auto text-brand-150 group-hover:text-white z-0 -bottom-5 sm:-bottom-8`}
+                      className={`absolute right-0 w-24 opacity-10 ml-auto text-designgrafico-300 group-hover:text-white z-0 -bottom-5 sm:-bottom-8`}
                     >
                       {modalIcon}
                     </div>

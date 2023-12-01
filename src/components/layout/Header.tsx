@@ -24,7 +24,7 @@ declare const window: any;
 const cursos = [
   { name: "Publicidade e Propaganda", href: "/publicidade-e-propaganda" },
   { name: "AudioVisual", href: "/audiovisual" },
-  { name: "Design gráfico", href: "/design-grafico" },
+  { name: "Design Gráfico", href: "/design-grafico" },
 ];
 
 export default function Header() {

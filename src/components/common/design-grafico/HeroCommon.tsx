@@ -30,8 +30,6 @@ const HeroCommon = ({
           </p>
         </div>
       </div>
-      <div className="absolute w-11/12 h-2 bottom-4 rounded-r-md left-0 bg-brand-200 z-10"></div>
-      <div className="absolute w-full h-[10px] bottom-0 left-0 bg-brand-200 z-10"></div>
     </section>
   );
 };
