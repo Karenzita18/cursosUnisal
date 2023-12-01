@@ -31,93 +31,22 @@ const HeroHome = () => {
         <SwiperSlide>
           {({ isActive }) => (
             <div className="relative">
-              <div className="relative hidden md:block">
-                <div className="absolute z-30 bg-black/50 w-full h-full inset-0"></div>
-                <div className="absolute w-full h-full z-10 flex items-center place-content-end">
-                  <div className="sm:max-w-[16rem] lg:max-w-xs xl:max-w-md mr-10 lg:mr-20">
-                    <Image
-                      src="/img/banners/banners.png"
-                      width={880}
-                      height={550}
-                      alt="Faça sua cotação!"
-                      className="relative"
-                    />
-                  </div>
-                </div>
+              <div className="hidden md:block">
                 <Image
-                  src="/img/banners/banners.png"
+                  src="/img/publicidade/banner-desktop-pp.jpg"
                   width={1920}
                   height={700}
-                  alt="Faça sua cotação!"
+                  alt="Banner publicidade e propaganda desktop"
                   className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
                 />
               </div>
-
-              <div className="relative md:hidden h-96">
-                <div className="absolute z-30 bg-black/50 w-full h-full inset-0"></div>
-                <div className="absolute w-full h-full flex items-center place-content-end">
-                  <div className="max-w-[18rem]">
-                    <Image
-                      src="/img/banners/banners.png"
-                      width={583}
-                      height={604}
-                      alt="Faça sua cotação!"
-                      className="relative"
-                    />
-                  </div>
-                </div>
-                <Image
-                  src="/img/banners/banners.png"
-                  width={1920}
-                  height={700}
-                  alt="Faça sua cotação!"
+              <div className="md:hidden h-96">
+                <img
+                  src="/img/publicidade/banner-mobile-pp.jpg"
+                  alt="Banner publicidade e propaganda mobile"
                   className="relative object-cover h-full w-full"
                 />
               </div>
-              <section className="absolute w-full h-full flex flex-col justify-center place-content-center inset-0 z-30">
-                <div className="row">
-                  <div className="container">
-                    <div className="">
-                      <h1
-                        className={`hidden sm:block font-black text-2xl sm:text-2xl lg:text-4xl xl:text-5xl text-white text-center ${
-                          isActive && "animate-fade-down"
-                        }`}
-                      >
-                        What is Lorem Ipsum?
-                      </h1>
-                      <h1
-                        className={`sm:hidden font-black text-2xl sm:text-2xl lg:text-4xl xl:text-5xl text-white text-center max-w-[18rem] mx-auto ${
-                          isActive && "animate-fade-down"
-                        }`}
-                      >
-                        What is Lorem Ipsum?
-                      </h1>
-                      <p
-                        className={`text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl text-white font-medium max-w-4xl mx-auto ${
-                          isActive && "animate-fade-down"
-                        }`}
-                      >
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                      </p>
-                      <div
-                        className={`flex place-content-center mt-5 ${
-                          isActive && "animate-fade-up"
-                        }`}
-                      >
-                        <LinkScroll
-                          smooth
-                          to="contato"
-                          href="/"
-                          offset={-180}
-                          className="text-white text-lg font-bold rounded-full px-5 py-2 border border-white"
-                        >
-                          Saiba Mais
-                        </LinkScroll>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
           )}
         </SwiperSlide>

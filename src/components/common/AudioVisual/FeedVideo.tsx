@@ -14,7 +14,7 @@ const FeedVideo = () => {
         <div className="container">
           <div className="text-center mb-5">
             <h2 className={`text-3xl sm:text-4xl font-bold text-white !leading-6 ${inView && "animate-fade-down"}`}>
-              Veja nosso portifólio
+              Veja nosso portfólio
             </h2>
           </div>
           <div className="mt-4">

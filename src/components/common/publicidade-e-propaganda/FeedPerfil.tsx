@@ -25,10 +25,7 @@ const FeedDiferenciais = () => {
               Profissional capaz de interpretar objetivos mercadológicos de empresas e instituições, traduzindo-os em estratégias de comunicação adequadas para diversas situações.
             </p>
             <p className="text-brand-100 text-justify">
-              Desenvolver habilidades em planejamento, criação, produção, difusão, avaliação e gestão da comunicação publicitária em diversas áreas, como empresas especializadas, anunciantes, veículos, produtoras e institutos de pesquisa.
-            </p>
-            <p className="text-brand-100 text-justify">
-              Decifrar dados relacionados a consumidores, audiência, circulação de veículos de comunicação e mercado, aplicando-os no processo de comunicação publicitária.
+              Desenvolver habilidades em planejamento, criação, produção, difusão, avaliação e gestão da comunicação publicitária em diversas áreas, como empresas especializadas, anunciantes, veículos, produtoras e institutos de pesquisa. Decifrar dados relacionados a consumidores, audiência, circulação de veículos de comunicação e mercado, aplicando-os no processo de comunicação publicitária.
             </p>
           </div>
         </div>

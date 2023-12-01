@@ -16,7 +16,7 @@ const FeedAbout = () => {
                 src="/img/design-grafico/design-grafico-curso.png"
                 width={500}
                 height={500}
-                alt="Panfleto AudioVisual"
+                alt="Panfleto Design Gráfico"
               />
             </div>
             <div className="col-span-3 md:col-span-3 md:pl-3 md:order-1 flex flex-col justify-center mt-3">

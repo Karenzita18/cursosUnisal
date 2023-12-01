@@ -12,30 +12,23 @@ const FeedAbout = () => {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-5">
             <div className="col-span-2">
-              <img
-                src="https://via.placeholder.com/500x500"
+              <Image
+                src="/img/publicidade/sobre-curso-pp.jpg"
                 width={500}
                 height={500}
-                alt="Panfleto AudioVisual"
+                alt="Panfleto Publicidade e Propaganda"
               />
             </div>
             <div className="col-span-3 md:col-span-3 md:pl-3 md:order-1 flex flex-col justify-center mt-3">
-                <div className="flex flex-col justify-center">
-                  <p
-                  className={`sectionSubTitle ${
-                    inView && "animate-fade-down animate-delay-300"
-                  }`}
-                >
+              <div className="flex flex-col justify-center">
+                <h2 className={`text-3xl sm:text-4xl font-bold text-designgrafico-300 !leading-6 ${inView && "animate-fade-down"}`}>
                   Sobre o curso
-                </p>
-                <h2 className={`sectionTitle ${inView && "animate-fade-down"}`}>
-                  Nossa História
                 </h2>
                 <div className="mt-3 flex flex-col gap-y-3 text-justify font-medium text-lg ">
-                  <p className="text-brand-100">
+                  <p className="text-designgrafico-300">
                     Comunicação social com habilitação em Publicidade e Propaganda, curso consolidado há 25 anos na instituição UNISAL - Centro Universitário Salesiano de São Paulo nos últimos 5 anos formou 134 publicitários.
                   </p>
-                  <p className="text-brand-100">
+                  <p className="text-designgrafico-300">
                     Em uma união de técnica, estética e ética, pilares essenciais para a formação, o curso tem foco principal em transmitir diferentes formas de comunicar na teoria e na prática, com a aplicação de trabalhos que vão além da sala de aula os alunos vão criando portfólio e conquistando experiências que poderão agregar em suas carreiras profissionais.
                   </p>
                 </div>
