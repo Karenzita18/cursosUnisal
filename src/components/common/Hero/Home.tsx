@@ -55,7 +55,7 @@ const HeroHome = () => {
             <div className="relative">
               <div className="hidden md:block">
                 <Image
-                  src="/img/audiovisual/banner-audiovisual-desktop.png"
+                  src="/img/audiovisual/banner-audiovisual-desktop.jpg"
                   width={1920}
                   height={700}
                   alt="Banner audiovisual desktop"
@@ -64,7 +64,7 @@ const HeroHome = () => {
               </div>
               <div className="md:hidden h-96">
                 <img
-                  src="/img/audiovisual/banner-mobile-oficial.png"
+                  src="/img/audiovisual/banner-mobile-audiovisual.png"
                   alt="Banner AudioVisual mobile"
                   className="relative object-cover h-full w-full"
                 />
