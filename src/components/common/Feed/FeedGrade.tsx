@@ -162,8 +162,8 @@ const services = [
   {
     title: "Publicidade e Propaganda",
     slug: "carga-lotacao",
-    desc: "Liguagem de Rádio, TV, Internet e Cinema. Leitura e Produção de texto e Matemática, Inteligência Artificial e Machine Learning e Conforme trilhas institucionais - Eletiva",
-    excerpt: "Lorem ispium lore mauris con con la port",
+    desc: "Curso bacharelado de Comunicação Social com habilitação em Publicidade e Propaganda tem como foco formar profissionais estrategistas e participantes dos objetivos intitucionais, empresariais e mercadológicos.",
+    excerpt: "Curso bacharelado de Comunicação Social com habilitação em Publicidade e Propaganda...",
     size: "h-14 w-14",
   },
   {
@@ -176,8 +176,8 @@ const services = [
   {
     title: "Design gráfico",
     slug: "crossdocking",
-    desc: "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
-    excerpt:  "Lorem ispium lore mauris con con la port ",
+    desc: "O curso de Design Gráfico é uma formação que capacita os estudantes a criarem projetos de comunicação visual impactantes e funcionais. O curso possui uma grade curricular ampla, incluindo fundamentos teóricos e práticos.",
+    excerpt:  "O curso de Design Gráfico é uma formação que capacita os estudantes a criarem projetos de comunicação visual impactantes e funcionais.....",
     size: "h-14 w-14",
   },
 ];

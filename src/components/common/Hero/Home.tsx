@@ -136,7 +136,7 @@ const HeroHome = () => {
               <div className="md:hidden h-96">
                 <img
                   src="/img/audiovisual/banner-mobile-oficial.png"
-                  alt="Faça sua cotação!"
+                  alt="Banner AudioVisual mobile"
                   className="relative object-cover h-full w-full"
                 />
               </div>
@@ -146,59 +146,22 @@ const HeroHome = () => {
         <SwiperSlide>
           {({ isActive }) => (
             <div className="relative">
-              <div className="hidden md:block ">
+              <div className="hidden md:block">
                 <Image
-                  src="/img/banners/banners.png"
+                  src="/img/design-grafico/banner-desktop-design.png"
                   width={1920}
                   height={700}
-                  alt="Faça sua cotação!"
+                  alt="Banner Design gráfico desktop"
                   className="relative xl:object-cover xl:w-full 2xl:h-[40rem]"
                 />
               </div>
               <div className="md:hidden h-96">
-                <Image
-                  src="/img/banners/banners.png"
-                  width={900}
-                  height={405}
-                  alt="Faça sua cotação!"
-                  className="object-cover object-right h-full w-ful"
+                <img
+                  src="/img/design-grafico/banner-mobile-design.png"
+                  alt="Banner Design gráfico mobile"
+                  className="relative object-cover h-full w-full"
                 />
               </div>
-              <section className="absolute w-full h-full flex flex-col justify-center place-content-center inset-0 bg-black/40">
-                <div className="row">
-                  <div className="container">
-                    <h1
-                      className={`font-black text-2xl sm:text-2xl lg:text-4xl xl:text-5xl text-white text-center ${
-                        isActive && "animate-fade-down"
-                      }`}
-                    >
-                      What is Lorem Ipsum?
-                    </h1>
-                    <p
-                      className={`"text-center text-lg sm:text-xl lg:text-2xl xl:text-3xl text-white font-medium ${
-                        isActive && "animate-fade-down"
-                      }`}
-                    >
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    </p>
-                    <div
-                      className={`flex place-content-center mt-5 ${
-                        isActive && "animate-fade-up"
-                      }`}
-                    >
-                      <LinkScroll
-                        smooth
-                        to="contato"
-                        href="/"
-                        offset={-180}
-                        className="text-white text-lg font-bold rounded-full px-5 py-2 border border-white"
-                      >
-                        Saiba Mais
-                      </LinkScroll>
-                    </div>
-                  </div>
-                </div>
-              </section>
             </div>
           )}
         </SwiperSlide>

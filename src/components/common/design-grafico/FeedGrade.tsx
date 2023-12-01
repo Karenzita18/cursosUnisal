@@ -81,10 +81,6 @@ const FeedServices = () => {
                   }
                   className="text-brand-150 font-bold group-hover:text-white group text-start tracking-wider text-sm"
                 >
-                  Ler Mais{" "}
-                  <span className="inline-block -mb-[2px] group-hover:translate-x-2 transition duration-700">
-                    <FaAngleRight />
-                  </span>
                 </button>
               </div>
             ))}
@@ -160,31 +156,31 @@ const FeedServices = () => {
 export default FeedServices;
 const services = [
   {
-    title: "Módulo 01",
+    title: "Módulo 01 - Fundamentos teóricos e práticos",
     slug: "carga-fracionada",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    desc: "Fundamentos teóricos e práticos, Projeto Integrador/Projeto de Vida I e Projeto Integrador - Extensão I",
+    excerpt: "Fundamentos teóricos e práticos, Projeto Integrador/Projeto de Vida I...",
     size: "h-14 w-14",
   },
   {
-    title: "Módulo 02",
+    title: "Módulo 02 - Cultura Imagética",
     slug: "carga-lotacao",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    desc: "Cultura Imagética na Publicidade e Propaganda, Projeto Integrador/Projeto de Vida II, Projeto Integrador - Extensão II e Trilhas eletivas",
+    excerpt: "Cultura Imagética na Publicidade e Propaganda, Projeto Integrador/Projeto de Vida II...",
     size: "h-14 w-14",
   },
   {
-    title: "Módulo 03",
+    title: "Módulo 03 - Design gráfico",
     slug: "crossdocking",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    desc: "Funcionalidade e linguagens em design, Projeto Integrador/Projeto de Vida III, Projeto Integrador - Extensão III e Estágio Supervisionado",
+    excerpt: "Funcionalidade e linguagens em design..",
     size: "h-14 w-14",
   },
   {
-    title: "Módulo 04",
+    title: "Módulo 04 - Inovação e Projetos empreendedores em Design",
     slug: "carga-produtos-quimicos",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using a",
+    desc: "Design, prototipagem e novas tecnologias, Projeto Integrador/Projeto de Vida IV, Projeto Integrador - Extensão IV, Trilhas eletivas e Estágio Supervisionado.",
+    excerpt: "Design, prototipagem e novas tecnologias, Projeto Integrador/Projeto de Vida IV...",
     size: "h-[3.6rem] w-[4.9rem] ",
   },
 ];

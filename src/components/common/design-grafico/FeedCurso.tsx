@@ -7,55 +7,31 @@ const FeedAbout = () => {
   const { ref, inView, entry } = useInView();
 
   return (
-    <section
-      ref={ref}
-      id="curso"
-      className="bg-brand-100/5 relative overflow-hidden"
-    >
+    <section className="bg-zinc-50 relative overflow-hidden">
       <div className="row relative">
         <div className="container">
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="flex flex-col justify-center">
-              <div
-                className={`"mx-auto max-w-2xl ${
-                  inView && "animate-fade-right animate-duration-700"
-                }`}
-              >
-                <img
-                  src="https://via.placeholder.com/400x400"
-                  alt="Foto PP"
-                  className="rounded-md shadow-lg"
-                />
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-5">
+            <div className="col-span-2">
+              <Image
+                src="/img/design-grafico/design-grafico-curso.png"
+                width={500}
+                height={500}
+                alt="Panfleto AudioVisual"
+              />
             </div>
-            <div className="flex flex-col justify-center">
-              <p
-                className={`sectionSubTitle ${
-                  inView && "animate-fade-down animate-delay-300"
-                }`}
-              >
-                Sobre o curso
-              </p>
-              <h2 className={`sectionTitle ${inView && "animate-fade-down"}`}>
-                Nossa História
-              </h2>
-              <div className="mt-3 flex flex-col gap-y-3 text-zinc-500 text-justify font-medium text-lg">
-                <p className={inView ? "animate-fade-left" : ""}>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make 
-                  a type specimen book. 
-                </p>
-                <p
-                  className={
-                    inView ? "animate-fade-left animate-delay-100" : ""
-                  }
-                >
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make 
-                  a type specimen book. 
-                </p>
+            <div className="col-span-3 md:col-span-3 md:pl-3 md:order-1 flex flex-col justify-center mt-3">
+              <div className="flex flex-col justify-center">
+                <h2 className={`text-3xl sm:text-4xl font-bold text-audiovisual-100 !leading-6 ${inView && "animate-fade-down"}`}>
+                  Sobre o curso
+                </h2>
+                <div className="mt-3 flex flex-col gap-y-3 text-justify font-medium text-lg ">
+                  <p className="text-audiovisual-100">
+                  O curso de Design Gráfico é uma formação que capacita os estudantes a criarem projetos de comunicação visual impactantes e funcionais. O curso possui uma grade curricular ampla, incluindo fundamentos teóricos e práticos, teoria das cores, tipografia e projetos práticos durante o curso.
+                  </p>
+                  <p className="text-audiovisual-100">
+                  Os alunos aprendem a utilizar ferramentas como Adobe Photoshop e Illustrator para criar materiais gráficos e, além disso, ao longo do processo, os estudantes desenvolvem habilidades criativas, técnicas e críticas, essenciais para uma carreira bem-sucedida como designer gráfico.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

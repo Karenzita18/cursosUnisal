@@ -7,7 +7,6 @@ const FeedAbout = () => {
   const { ref, inView, entry } = useInView();
 
   return (
-
     <section className="bg-zinc-50 relative overflow-hidden">
       <div className="row relative">
         <div className="container">
@@ -39,7 +38,6 @@ const FeedAbout = () => {
         </div>
       </div>
     </section>
-
   );
 };
 
