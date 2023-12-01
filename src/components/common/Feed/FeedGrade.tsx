@@ -174,7 +174,7 @@ const services = [
     size: "h-14 w-14",
   },
   {
-    title: "Design gráfico",
+    title: "Design Gráfico",
     slug: "crossdocking",
     desc: "O curso de Design Gráfico é uma formação que capacita os estudantes a criarem projetos de comunicação visual impactantes e funcionais. O curso possui uma grade curricular ampla, incluindo fundamentos teóricos e práticos.",
     excerpt:  "O curso de Design Gráfico é uma formação que capacita os estudantes a criarem projetos de comunicação visual impactantes e funcionais.....",

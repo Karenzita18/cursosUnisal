@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <main className="mt-20">
       <HeroCommon
-        title="Design gráfico"
+        title="Design Gráfico"
         desc="Unisal 2023"
       />
       <FeedCurso/>

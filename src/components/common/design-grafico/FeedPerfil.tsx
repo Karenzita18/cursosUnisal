@@ -7,7 +7,7 @@ const FeedDiferenciais = () => {
   return (
     <section
       ref={ref}
-      className="bg-[url(/img/design-grafico/fundo2.png)] bg-cover bg-center relative"
+      className="bg-[url(/img/design-grafico/fundo3-teste.png)] bg-cover bg-center relative"
     >
       <div className="mb-5">
         <h1

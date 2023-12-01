@@ -10,7 +10,7 @@ const HeroCommon = ({
   return (
     <section
       ref={ref}
-      className="bg-[url(/img/design-grafico/fundo1.png)] bg-cover bg-center relative"
+      className="bg-[url(/img/design-grafico/fundo1-teste.png)] bg-cover bg-center relative"
     >
       <div className="row relative">
         <div className="container">
