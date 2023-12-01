@@ -169,8 +169,8 @@ const services = [
   {
     title: "AudioVisual",
     slug: "audiovisual",
-    desc:  "Lorem ispium lore mauris con con la port arithmetic est Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum d Prometheus ne pellentesque et just sed diam. Lorem ipsum   d Prometheus ne pellentesque et just sed diam. Lorem ips",
-    excerpt:  "Lorem ispium lore mauris con con la port ",
+    desc:  "Curso superior de Tecnologia em Produção Audiovisual e Multimídia foi elaborado para lhe propor uma visão ampla e objetiva das mais novas atualizações do mundo digital e da comunicação no audiovisual.",
+    excerpt:  "Curso superior de Tecnologia em Produção Audiovisual e Multimídia foi elaborado para lhe propor uma visão ampla e objetiva...",
     size: "h-14 w-14",
   },
   {

@@ -21,8 +21,14 @@ const FeedDiferenciais = () => {
       <div className="row">
         <div className="container">
           <div className="mt-3 flex flex-col gap-y-3 font-medium text-lg">
+          <p className="text-brand-100 text-justify">
+              Profissional capaz de interpretar objetivos mercadológicos de empresas e instituições, traduzindo-os em estratégias de comunicação adequadas para diversas situações.
+            </p>
             <p className="text-brand-100 text-justify">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
+              Desenvolver habilidades em planejamento, criação, produção, difusão, avaliação e gestão da comunicação publicitária em diversas áreas, como empresas especializadas, anunciantes, veículos, produtoras e institutos de pesquisa.
+            </p>
+            <p className="text-brand-100 text-justify">
+              Decifrar dados relacionados a consumidores, audiência, circulação de veículos de comunicação e mercado, aplicando-os no processo de comunicação publicitária.
             </p>
           </div>
         </div>

@@ -81,10 +81,6 @@ const FeedServices = () => {
                   }
                   className="text-brand-150 font-bold group-hover:text-white group text-start tracking-wider text-sm"
                 >
-                  Ler Mais{" "}
-                  <span className="inline-block -mb-[2px] group-hover:translate-x-2 transition duration-700">
-                    <FaAngleRight />
-                  </span>
                 </button>
               </div>
             ))}
@@ -162,29 +158,29 @@ const services = [
   {
     title: "Módulo 01",
     slug: "carga-fracionada",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    excerpt: "Fundamentos Teóricos e práticos; Teoria e Estética da Comunicação...",
+    desc: "Fundamentos Teóricos e práticos; Teoria e Estética da Comunicação; Discurso Verbal e Não Verbal; Redação Publicitária.",
     size: "h-14 w-14",
   },
   {
     title: "Módulo 02",
     slug: "carga-lotacao",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    desc: "Cultura Imaginética na Publicidade e Propaganda; Design Publicitário; Fotografia.",
+    excerpt: "Cultura Imaginética na Publicidade e Propaganda...",
     size: "h-14 w-14",
   },
   {
     title: "Módulo 03",
     slug: "crossdocking",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
+    desc: "Marketing; Gestão e Análises Mercadológicas; Empreendedorismo; Estratégias de Gestão; Inteligência de Mercado; Psicologia Organizacional; Responsabilidade Social e Corporativa.",
+    excerpt: "Marketing; Gestão e Análises Mercadológicas... ",
     size: "h-14 w-14",
   },
   {
     title: "Módulo 04",
     slug: "carga-produtos-quimicos",
-    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ",
-    excerpt: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using a",
+    desc: "Cultura Audiovisual na Publicidade e Propaganda; Produção Publicitária em Áudio e TV; Criação e Direção de Arte em Publicidade e Propaganda.",
+    excerpt: "Cultura Audiovisual na Publicidade e Propaganda; Produção Publicitária em Áudio e TV...",
     size: "h-[3.6rem] w-[4.9rem] ",
   },
 ];

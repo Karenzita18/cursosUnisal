@@ -1,4 +1,4 @@
-import FeedPerfil from "@/components/common/AudioVisual/FeedPerfil";
+import FeedPerfil from "@/components/common/publicidade-e-propaganda/FeedPerfil";
 import FeedCurso from "@/components/common/publicidade-e-propaganda/FeedCurso";
 import FeedGrade from "@/components/common/publicidade-e-propaganda/FeedGrade";
 import FeedVideo from "@/components/common/publicidade-e-propaganda/FeedVideo";
