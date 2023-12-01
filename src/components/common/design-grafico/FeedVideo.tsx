@@ -6,7 +6,7 @@ const FeedVideo = () => {
   const { ref, inView, entry } = useInView();
   return (
     <section
-      className="bg-brand-100 bg-cover bg-center relative"
+      className="bg-[url(/img/design-grafico/fundo3.png)] bg-cover bg-center relative"
     >
       <div className="absolute w-2/5 -skew-x-12 h-full top-0 -right-16 bg-white opacity-5"></div>
       <div className="row relative">

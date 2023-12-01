@@ -7,11 +7,11 @@ const FeedDiferenciais = () => {
   return (
     <section
       ref={ref}
-      className="bg-brand-100/20 mt-10 sm:mt-0"
+      className="bg-[url(/img/design-grafico/fundo2.png)] bg-cover bg-center relative"
     >
       <div className="mb-5">
         <h1
-          className={`text-3xl sm:text-4xl font-bold text-brand-100 !leading-9 text-center  ${
+          className={`text-3xl sm:text-4xl font-bold text-white !leading-9 text-center  ${
             inView && "animate-fade-down "
           }`}
         >
@@ -21,7 +21,7 @@ const FeedDiferenciais = () => {
       <div className="row">
         <div className="container">
           <div className="mt-3 flex flex-col gap-y-3 font-medium text-lg">
-            <p className="text-brand-100 text-justify">
+            <p className="text-white text-justify">
             Profissional autônomo e ético, que domina as linguagens do design gráfico aplicadas a 
             diferentes mídias e contexto: online e offline. É capaz de empreender e propor soluções, 
             de modo individual ou em equipe, para empresas, instituições públicas ou do terceiro 
