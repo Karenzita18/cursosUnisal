@@ -6,6 +6,7 @@ import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
+import DownloadButtonAudio from "./DownloandButtonAudio";
 
 const FeedServices = () => {
   const { ref, inView, entry } = useInView();
@@ -85,18 +86,7 @@ const FeedServices = () => {
               </div>
             ))}
           </div>
-          <div
-            className={`hover:-translate-y-2 transition duration-500 mt-5 ${
-              inView && "animate-fade-up animate-delay-200 animate-duration-500"
-            } flex items-center justify-center`}
-          >
-            <Link
-              href="/"
-              className="border border-brand-100 text-brand-100 px-5 py-2 font-semibold hover:bg-brand-100 rounded-full hover:text-white transition duration-500 mx-auto text-center"
-            >
-              Saiba Mais
-            </Link>
-          </div>
+          <DownloadButtonAudio/>
         </div>
       </div>
       <Transition appear show={isOpen} as={Fragment}>
