@@ -13,7 +13,7 @@ const FeedAbout = () => {
           <div className="grid grid-cols-1 md:grid-cols-5">
             <div className="col-span-2">
               <img
-                src="https://via.placeholder.com/500x500"
+                src="/img/home-arte.jpeg"
                 width={500}
                 height={500}
                 alt="Panfleto AudioVisual"

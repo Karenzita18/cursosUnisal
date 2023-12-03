@@ -21,14 +21,14 @@ const FeedAbout = () => {
             </div>
             <div className="col-span-3 md:col-span-3 md:pl-3 md:order-1 flex flex-col justify-center mt-3">
               <div className="flex flex-col justify-center">
-                <h2 className={`text-3xl sm:text-4xl font-bold text-designgrafico-300 !leading-6 ${inView && "animate-fade-down"}`}>
+                <h2 className={`text-3xl sm:text-4xl font-bold text-publicidade-100 !leading-6 ${inView && "animate-fade-down"}`}>
                   Sobre o curso
                 </h2>
                 <div className="mt-3 flex flex-col gap-y-3 text-justify font-medium text-lg ">
-                  <p className="text-designgrafico-300">
+                  <p className="text-publicidade-100">
                     Comunicação social com habilitação em Publicidade e Propaganda, curso consolidado há 25 anos na instituição UNISAL - Centro Universitário Salesiano de São Paulo nos últimos 5 anos formou 134 publicitários.
                   </p>
-                  <p className="text-designgrafico-300">
+                  <p className="text-publicidade-100">
                     Em uma união de técnica, estética e ética, pilares essenciais para a formação, o curso tem foco principal em transmitir diferentes formas de comunicar na teoria e na prática, com a aplicação de trabalhos que vão além da sala de aula os alunos vão criando portfólio e conquistando experiências que poderão agregar em suas carreiras profissionais.
                   </p>
                 </div>

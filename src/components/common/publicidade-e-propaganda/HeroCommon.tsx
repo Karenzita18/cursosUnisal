@@ -10,7 +10,7 @@ const HeroCommon = ({
   return (
     <section
       ref={ref}
-      className="bg-gradient-to-r from-brand-100 to-brand-150 relative"
+      className="bg-[url(/img/publicidade/bg-hero-common.jpeg)] bg-cover bg-center relative"
     >
       <div className="row relative">
         <div className="container">
@@ -30,8 +30,6 @@ const HeroCommon = ({
           </p>
         </div>
       </div>
-      <div className="absolute w-11/12 h-2 bottom-4 rounded-r-md left-0 bg-brand-200 z-10"></div>
-      <div className="absolute w-full h-[10px] bottom-0 left-0 bg-brand-200 z-10"></div>
     </section>
   );
 };
