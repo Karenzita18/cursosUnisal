@@ -24,32 +24,14 @@ export default function Page() {
 
 export const metadata = {
   title:
-    "AudioVisual | Unisal",
+    "AudioVisual e MultiMídia | Unisal",
   description: "",
   keywords: [
-    "Transportadora Sanjefer",
-    "Guarulhos frete",
-    "Serviço de crossdocking",
-    "Carga fracionada",
-    "Carga lotação",
-    "Carga de produtos químicos",
-    "Transporte de produtos químicos",
-    "Logística de frete",
-    "Soluções logísticas em Guarulhos",
-    "Distribuição de carga",
-    "Transporte de mercadorias",
-    "Serviço de transporte especializado",
-    "Armazenagem e distribuição",
-    "Logística eficiente em Guarulhos",
-    "Transporte de cargas diversas",
-    "Logística integrada",
-    "Transporte seguro de produtos químicos",
-    "Agilidade no transporte de cargas",
-    "Pontualidade na entrega",
-    "Equipe de profissionais qualificados",
+    "Audiovisual e Multimídia",
+
   ],
   alternates: {
-    canonical: "sanjefer.com",
+    canonical: "cursos-unisal.vercel-app",
     languages: {
       "pt-BR": "/pt-BR",
     },
