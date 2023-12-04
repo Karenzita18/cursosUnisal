@@ -89,7 +89,7 @@ const FeedServices = () => {
               </div>
             ))}
           </div>
-          <DownloadPP/>
+          {/*<DownloadPP/>*/}
         </div>
       </div>
       <Transition appear show={isOpen} as={Fragment}>

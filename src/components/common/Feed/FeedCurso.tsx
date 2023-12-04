@@ -7,7 +7,7 @@ const FeedAbout = () => {
   const { ref, inView, entry } = useInView();
 
   return (
-  <section className="bg-zinc-50 relative overflow-hidden">
+  <section className="bg-brand-100/10 relative overflow-hidden">
       <div className="row relative">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-5">

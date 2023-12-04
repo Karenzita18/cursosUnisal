@@ -155,7 +155,7 @@ const services = [
     size: "h-14 w-14",
   },
   {
-    title: "AudioVisual",
+    title: "AudioVisual e Multimídia",
     slug: "audiovisual",
     desc:  "Curso superior de Tecnologia em Produção Audiovisual e Multimídia foi elaborado para lhe propor uma visão ampla e objetiva das mais novas atualizações do mundo digital e da comunicação no audiovisual.",
     excerpt:  "Curso superior de Tecnologia em Produção Audiovisual e Multimídia foi elaborado para lhe propor uma visão ampla e objetiva...",

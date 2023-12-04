@@ -23,7 +23,7 @@ declare const window: any;
 
 const cursos = [
   { name: "Publicidade e Propaganda", href: "/publicidade-e-propaganda" },
-  { name: "AudioVisual", href: "/audiovisual" },
+  { name: "AudioVisual e Multimídia", href: "/audiovisual-e-multimidia" },
   { name: "Design Gráfico", href: "/design-grafico" },
 ];
 

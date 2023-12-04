@@ -77,7 +77,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="hover:text-brand-50 transition duration-500">
-                    <Link href="/cursos/audiovisual">
+                    <Link href="/cursos/audiovisual-e-multimidia">
                       <span className="inline-block -mb-[2px] mr-1">
                         <FaAngleDoubleRight />
                       </span>
@@ -152,7 +152,7 @@ const Footer = () => {
           <div className="text-white flex gap-2 text-sm">
             Desenvolvido por
             <a
-              href="/"
+              href="https://www.instagram.com/la_karenzinha/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-50 underline hover:text-brand-100 transition duration-500"

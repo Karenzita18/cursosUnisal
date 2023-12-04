@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <main className="mt-20">
       <HeroCommon
-        title="Audiovisual"
+        title="Audiovisual e Multimídia"
         desc="Unisal 2023"
       />
       <FeedCurso/>
